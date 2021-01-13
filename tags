@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOT_NAME	.\TmallShop\settings.py	/^BOT_NAME = 'TmallShop'$/;"	v
+ItemAdapter	.\TmallShop\middlewares.py	/^from itemadapter import is_item, ItemAdapter$/;"	i
+ItemAdapter	.\TmallShop\pipelines.py	/^from itemadapter import ItemAdapter$/;"	i
+ItemDetail	.\TmallShop\logic\itemDetail.py	/^class ItemDetail:$/;"	c
+NEWSPIDER_MODULE	.\TmallShop\settings.py	/^NEWSPIDER_MODULE = 'TmallShop.spiders'$/;"	v
+ROBOTSTXT_OBEY	.\TmallShop\settings.py	/^ROBOTSTXT_OBEY = True$/;"	v
+SPIDER_MODULES	.\TmallShop\settings.py	/^SPIDER_MODULES = ['TmallShop.spiders']$/;"	v
+Selector	.\TmallShop\logic\itemDetail.py	/^from scrapy.selector import Selector$/;"	i
+Selector	.\TmallShop\logic\shopItem.py	/^from scrapy.selector import Selector$/;"	i
+TmallshopDownloaderMiddleware	.\TmallShop\middlewares.py	/^class TmallshopDownloaderMiddleware:$/;"	c
+TmallshopItem	.\TmallShop\items.py	/^class TmallshopItem(scrapy.Item):$/;"	c
+TmallshopPipeline	.\TmallShop\pipelines.py	/^class TmallshopPipeline:$/;"	c
+TmallshopSpiderMiddleware	.\TmallShop\middlewares.py	/^class TmallshopSpiderMiddleware:$/;"	c
+__init__	.\TmallShop\logic\itemDetail.py	/^    def __init__(self, item_ids):$/;"	m	class:ItemDetail
+all_item_ids	.\TmallShop\main.py	/^all_item_ids = shopItem.get_shop_items()$/;"	v
+browser	.\Vmall\main.py	/^browser = webdriver.Chrome()$/;"	v
+common	.\TmallShop\logic\itemDetail.py	/^from TmallShop.config import common$/;"	i
+common	.\TmallShop\logic\shopItem.py	/^from TmallShop.config import common$/;"	i
+datetime	.\TmallShop\common\functions_file.py	/^import datetime$/;"	i
+datetime	.\Vmall\functions_file.py	/^import datetime$/;"	i
+debug_log	.\TmallShop\common\functions_file.py	/^def debug_log(content):$/;"	f
+debug_log	.\Vmall\functions_file.py	/^def debug_log(content):$/;"	f
+from_crawler	.\TmallShop\middlewares.py	/^    def from_crawler(cls, crawler):$/;"	m	class:TmallshopDownloaderMiddleware
+from_crawler	.\TmallShop\middlewares.py	/^    def from_crawler(cls, crawler):$/;"	m	class:TmallshopSpiderMiddleware
+functions_file	.\TmallShop\logic\itemDetail.py	/^from TmallShop.common import functions_file$/;"	i
+get_all_detail	.\TmallShop\logic\itemDetail.py	/^    def get_all_detail(self, operation="item"):$/;"	m	class:ItemDetail
+get_obj	.\Vmall\main.py	/^def get_obj(aim, target):$/;"	f
+get_shop_items	.\TmallShop\logic\shopItem.py	/^def get_shop_items():$/;"	f
+ips	.\TmallShop\logic\itemDetail.py	/^from TmallShop.config import ips$/;"	i
+is_item	.\TmallShop\middlewares.py	/^from itemadapter import is_item, ItemAdapter$/;"	i
+itemDetail	.\TmallShop\main.py	/^from TmallShop.logic import itemDetail$/;"	i
+item_detail_class	.\TmallShop\main.py	/^item_detail_class = itemDetail.ItemDetail(all_item_ids)$/;"	v
+json	.\TmallShop\logic\itemDetail.py	/^import json$/;"	i
+json	.\Vmall\requestApi.py	/^import json$/;"	i
+link_start	.\TmallShop\logic\itemDetail.py	/^    def link_start(self):$/;"	m	class:ItemDetail
+login_obj	.\Vmall\main.py	/^login_obj = get_obj('text', '请登录')$/;"	v
+obj_click	.\Vmall\main.py	/^def obj_click(obj_aim, obj_target):$/;"	f
+params	.\TmallShop\config\common.py	/^params = {$/;"	v
+params	.\TmallShop\config\ips.py	/^params = [$/;"	v
+process_exception	.\TmallShop\middlewares.py	/^    def process_exception(self, request, exception, spider):$/;"	m	class:TmallshopDownloaderMiddleware
+process_item	.\TmallShop\pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:TmallshopPipeline
+process_request	.\TmallShop\middlewares.py	/^    def process_request(self, request, spider):$/;"	m	class:TmallshopDownloaderMiddleware
+process_response	.\TmallShop\middlewares.py	/^    def process_response(self, request, response, spider):$/;"	m	class:TmallshopDownloaderMiddleware
+process_spider_exception	.\TmallShop\middlewares.py	/^    def process_spider_exception(self, response, exception, spider):$/;"	m	class:TmallshopSpiderMiddleware
+process_spider_input	.\TmallShop\middlewares.py	/^    def process_spider_input(self, response, spider):$/;"	m	class:TmallshopSpiderMiddleware
+process_spider_output	.\TmallShop\middlewares.py	/^    def process_spider_output(self, response, result, spider):$/;"	m	class:TmallshopSpiderMiddleware
+process_start_requests	.\TmallShop\middlewares.py	/^    def process_start_requests(self, start_requests, spider):$/;"	m	class:TmallshopSpiderMiddleware
+random	.\TmallShop\logic\itemDetail.py	/^import random$/;"	i
+re	.\TmallShop\logic\itemDetail.py	/^import re$/;"	i
+request_headers	.\Vmall\requestApi.py	/^request_headers = {$/;"	v
+request_obj	.\Vmall\requestApi.py	/^request_obj = requests.session()$/;"	v
+request_params	.\Vmall\requestApi.py	/^request_params = {$/;"	v
+request_url	.\Vmall\requestApi.py	/^request_url = 'https:\/\/buy.vmall.com\/order\/create.json'$/;"	v
+requests	.\TmallShop\logic\itemDetail.py	/^import requests$/;"	i
+requests	.\TmallShop\logic\shopItem.py	/^import requests$/;"	i
+requests	.\Vmall\requestApi.py	/^import requests$/;"	i
+result	.\TmallShop\main.py	/^result = item_detail_class.link_start()$/;"	v
+scrapy	.\TmallShop\items.py	/^import scrapy$/;"	i
+shopItem	.\TmallShop\main.py	/^from TmallShop.logic import shopItem$/;"	i
+signals	.\TmallShop\middlewares.py	/^from scrapy import signals$/;"	i
+spider_opened	.\TmallShop\middlewares.py	/^    def spider_opened(self, spider):$/;"	m	class:TmallshopDownloaderMiddleware
+spider_opened	.\TmallShop\middlewares.py	/^    def spider_opened(self, spider):$/;"	m	class:TmallshopSpiderMiddleware
+time	.\TmallShop\logic\itemDetail.py	/^import time$/;"	i
+time	.\Vmall\main.py	/^import time$/;"	i
+time	.\Vmall\requestApi.py	/^import time$/;"	i
+try_request	.\TmallShop\logic\itemDetail.py	/^    def try_request(self, url, header='', param='', proxies='', max_time=1, try_num=3):$/;"	m	class:ItemDetail
+webdriver	.\Vmall\main.py	/^from selenium import webdriver$/;"	i
